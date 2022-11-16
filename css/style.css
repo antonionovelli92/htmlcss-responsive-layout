@@ -5,21 +5,49 @@
     box-sizing: border-box;
 }
 
-
-.main-header {
+/* COLORS */
+.bg-blu {
     background-color: #0584FD;
-
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    padding: 0 30px;
-
 }
 
-.navbar-menu .fa-bars {
-    color: white;
-    cursor: pointer;
+.bg-purple {
+    background-color: #9792E3;
 }
+
+.purple {
+    color: #9792E3;
+}
+
+.blu {
+    color: #0584FD;
+}
+
+.card-blu {
+    background-color: #B5DDFF;
+}
+
+/* SKILLS */
+.pd-xl {
+    padding: 60px 0;
+}
+
+.border {
+    border: 2px dashed red;
+}
+
+.mr-top30 {
+    margin-top: 30px;
+}
+
+.mr-bot30 {
+    margin-bottom: 30px;
+}
+
+.mr-left30 {
+    margin-left: 30px;
+}
+
+
 
 /* generics */
 body {
@@ -46,13 +74,35 @@ img {
     cursor: pointer;
 }
 
-/* HEADER */
+.btn-blu {
+    background-color: #0584FD;
+    color: white;
+    padding: 8px 50px;
+    border-radius: 14px;
+    cursor: pointer;
+    border: 0;
+}
+
+/* * HEADER */
 .navbar {
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+}
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 0 30px;
+
+}
+
+.navbar-menu .fa-bars {
+    color: white;
+    cursor: pointer;
 }
 
 .menu-links {
@@ -70,6 +120,40 @@ img {
 .menu-links li {
     margin: 0 20px;
 }
+
+/* * MAIN */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    min-height: 200px;
+    width: 50%;
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.card h3,
+p {
+    padding: 18px 30px;
+}
+
+.card .btn-blu {}
+
+
+/* .card h3 {
+    color: #0584FD;
+}
+
+.card .btn-blu {
+    
+
+} */
 
 /* ? MEDIA QUERIES */
 
