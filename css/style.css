@@ -14,6 +14,10 @@
     background-color: #9792E3;
 }
 
+.bg-black {
+    background-color: black;
+}
+
 .purple {
     color: #9792E3;
 }
@@ -28,7 +32,7 @@
 
 /* SKILLS */
 .pd-xl {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .border {
@@ -54,6 +58,15 @@
 .mr-left65 {
     margin-left: 65px;
 }
+
+.fb70 {
+    flex-basis: 70%;
+}
+
+.fb30 {
+    flex-basis: 30%;
+}
+
 
 
 
@@ -173,15 +186,15 @@ img {
     min-height: 400px;
 }
 
-/* .card h3 {
-    color: #0584FD;
+.main-started {
+    min-height: 400px;
 }
 
-.card .btn-blu {
+/* *FOOTER */
 
-    
-
-} */
+footer {
+    min-height: 80px;
+}
 
 /* ? MEDIA QUERIES */
 
