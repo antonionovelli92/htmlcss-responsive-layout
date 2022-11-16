@@ -161,12 +161,14 @@ img {
 }
 
 .card-text {
-    padding: 15px 10px;
+    padding: 20px 30px;
 }
 
-.card img {
-    /* height: 100px; */
+.card-image {
+    padding: 0 30px;
 }
+
+/* ! MAIN-PURPLE */
 
 .main-purple {
     min-height: 400px;
@@ -177,6 +179,7 @@ img {
     min-height: 400px;
 }
 
+/* ! MAIN-PERSONS */
 .main-persons {
     min-height: 400px;
 }
@@ -186,6 +189,7 @@ img {
     min-height: 400px;
 }
 
+/* ! MAIN-STARTED */
 .main-started {
     min-height: 400px;
 }
