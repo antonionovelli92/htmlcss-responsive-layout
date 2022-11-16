@@ -267,10 +267,20 @@ p,
 .main-persons .card-text {
     text-align: center;
     line-height: 30px;
+
 }
 
 .main-persons .bg-purple {
     border-radius: 25%;
+}
+
+
+
+.main-persons img {
+    border-radius: 50%;
+    height: 221px;
+    width: 70%;
+    margin: 10px 50px;
 }
 
 /* ! MAIN-STARTED */
