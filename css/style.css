@@ -108,7 +108,7 @@ body {
 
 /* utily */
 .container {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -193,7 +193,8 @@ img {
 
 .col {
     min-height: 200px;
-    width: 85%;
+    margin: 0 2rem;
+
 }
 
 .card {
@@ -296,9 +297,9 @@ p,
 
 .main-persons img {
     border-radius: 50%;
-    height: 221px;
-    width: 70%;
-    margin: 10px 50px;
+    height: 200px;
+    width: 51%;
+    margin: 10px 99px;
 }
 
 /* ! MAIN-BENEFTIS */
@@ -326,6 +327,33 @@ p,
 }
 
 /* ! MAIN-ABOUT */
+.main-about .fa-quote-left {
+    color: #9792E3;
+    font-size: 70px;
+    margin-left: 43%;
+}
+
+.main-about-under {
+    margin-top: 160px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.main-about .position {
+    position: relative;
+}
+
+.main-about img {
+    border-radius: 50%;
+    height: 187px;
+    width: 37%;
+    position: absolute;
+    top: 0;
+    left: 8%;
+    right: 0;
+    bottom: 0;
+}
+
 /* ! MAIN-STARTED */
 .main-started {
     min-height: 400px;
@@ -339,18 +367,23 @@ footer {
 
 /* ? MEDIA QUERIES */
 
-/* @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 766px;
+    }
 
-    .blu-nav .mobile {
-        max-width: 768px;
-        width: 100%;
-
+    .row {
+        flex-direction: row;
 
     }
 
-    .blunav .navbar {}
+    .col {
+        flex-basis: calc(100% / 3);
+        flex-wrap: wrap;
+
+    }
 }
-*/
+
 
 @media screen and (min-width: 1200px) {
     .fa-bars {
