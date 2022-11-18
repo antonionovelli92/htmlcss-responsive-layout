@@ -92,6 +92,10 @@ section:nth-child(even) {
     cursor: pointer;
 }
 
+.navbar .fa-bars {
+    cursor: pointer;
+}
+
 .navbar-menu button {
     background-color: var(--whithe);
     color: var(--black);
@@ -505,6 +509,7 @@ footer {
 
     .navbar-menu .fa-bars {
         display: none;
+
     }
 
     .desktop-flex {
